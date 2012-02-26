@@ -1,0 +1,39 @@
+---
+layout: default
+title: Code Highlighting with OrgRuby
+---
+
+* Blogging with Jekyll
+** Example post written in OrgRuby
+
+The following code will print many times Hello.
+
+#+BEGIN_SRC ruby
+1000.times do |t|
+  puts t + ": Hello!"
+  html = <<HTML-
+  <h1> Html header </h1>
+HTML
+
+  puts "Syntax is highlighted"
+end
+#+END_SRC
+
+#+BEGIN_SRC python
+import mapnik
+
+m = mapnik.Map(600, 800)
+#+END_SRC
+
+** Org-mode is awesome
+
+| one | two | three |
+| 1   | 2   | 3     |
+|     | 2   | 3     |
+| a   | b   | c     |
+
+** Subheadline with links
+
+- Links
+ + Github Repository: <http://github.com/bdewey/org-ruby.git>
+ + Google: [[http://google.com]]

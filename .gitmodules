@@ -1,0 +1,6 @@
+[submodule "_plugins/jekyll-org"]
+	path = _plugins/jekyll-org
+	url = https://github.com/wallyqs/jekyll-org.git
+[submodule "_vendor/org-ruby"]
+	path = _vendor/org-ruby
+	url = https://github.com/wallyqs/org-ruby.git
